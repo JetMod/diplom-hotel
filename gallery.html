@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="icon" href="image/favicon.png" type="image/png" />
+    <title>Галерея</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="vendors/linericon/style.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link
+      rel="stylesheet"
+      href="vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.css"
+    />
+    <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css" />
+    <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="img/png" />
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="assets/css/flaticon.css" />
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <link rel="stylesheet" href="assets/css/nice-select.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap-datepicker.css" />
+    <link rel="stylesheet" href="assets/css/default.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!--================Header Area =================-->
+    <header class="header-absolute sticky-header header__background">
+      <div class="container container-custom-one">
+        <div
+          class="nav-container d-flex align-items-center justify-content-between"
+        >
+          <!-- Menu -->
+          <div class="site-logo">
+            <a href="index.html"
+              ><img src="assets/img/logo.png" alt="Logo"
+            /></a>
+          </div>
+          <div class="nav-push-item">
+            <!-- Header Info -->
+            <div class="header-info d-lg-flex align-items-center">
+              <div class="item">
+                <img src="assets/img/viber.png" alt="" class="tell__viber" />
+                <span>Телефон</span>
+                <a href="+7 (978) 788-95-68">
+                  <h5 class="title">+7 (978) 788-95-68</h5>
+                </a>
+              </div>
+
+              <li>
+                <a
+                  class="tell main-btn btn-border wow fadeInUp"
+                  data-wow-delay=".9s"
+                  href="booking.html"
+                  style="
+                    visibility: visible;
+                    animation-delay: 0.9s;
+                    animation-name: fadeInUp;
+                  "
+                  >Забронировать</a
+                >
+              </li>
+            </div>
+          </div>
+          <div class="nav-menu d-lg-flex align-items-center">
+            <!-- Navbar Close -->
+            <div class="navbar-close">
+              <div class="cross-wrap">
+                <span class="top"></span><span class="bottom"></span>
+              </div>
+            </div>
+
+            <!-- Off canvas Menu  -->
+            <div class="menu-items">
+              <ul>
+                <li>
+                  <a href="index.html">Отели</a>
+                  <ul class="submenu">
+                    <li><a href="index.html">Севастополь</a></li>
+                    <li><a href="index-2.html">Бахчисарай</a></li>
+                    <li><a href="index-3.html">Ялта</a></li>
+                  </ul>
+                  <span class="dd-trigger"
+                    ><i class="fal fa-angle-down"></i
+                  ></span>
+                  <span class="dd-trigger"
+                    ><i class="fal fa-angle-down"></i
+                  ></span>
+                </li>
+                <li>
+                  <a href="room-grid.html">Номера</a>
+                  <ul class="submenu">
+                    <li><a href="room-grid.html">Номера</a></li>
+                    <li><a href="room-list.html">VIP номера</a></li>
+                    <!-- <li><a href="room-details.html">Подробнее </a></li>    ПОДРОБНОЕ ОПИСАНИЕ НОМЕРА!!! -->
+                  </ul>
+                  <span class="dd-trigger"
+                    ><i class="fal fa-angle-down"></i
+                  ></span>
+                  <span class="dd-trigger"
+                    ><i class="fal fa-angle-down"></i
+                  ></span>
+                </li>
+                <li><a href="restaurant.html">Ресторан</a></li>
+                <li>
+                  <a href="news.html">Блог</a>
+                  <ul class="submenu">
+                    <li><a href="news.html">Акции</a></li>
+                  </ul>
+                  <span class="dd-trigger"
+                    ><i class="fal fa-angle-down"></i
+                  ></span>
+                  <span class="dd-trigger"
+                    ><i class="fal fa-angle-down"></i
+                  ></span>
+                </li>
+                <li><a href="contact.html">Контакты</a></li>
+                <li><a href="gallery.html">Галерея</a></li>
+              </ul>
+            </div>
+            <div class="toggle">
+              <a href="#" id="offCanvasBtn"><i class="fal fa-bars"></i></a>
+            </div>
+            <!-- Mneu Items -->
+
+            <!-- from pushed-item -->
+            <div class="nav-pushed-item"></div>
+          </div>
+
+          <!-- Site Logo -->
+
+          <!-- Header Info Pussed To Menu Wrap -->
+
+          <!-- Navbar Toggler -->
+          <div class="navbar-toggler">
+            <span></span><span></span><span></span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--====== HEADER END ======-->
+    <!--====== OFF CANVAS START ======-->
+    <div class="offcanvas-wrapper">
+      <div class="offcanvas-overly"></div>
+      <div class="offcanvas-widget">
+        <a href="#" class="offcanvas-close"> <i class="fal fa-times"></i></a>
+        <!-- Search Widget -->
+        <div class="widget search-widget">
+          <h5 class="widget-title">Поиск</h5>
+          <form action="#">
+            <input type="text" placeholder="Введите..." />
+            <button type="submit"><i class="far fa-search"></i></button>
+          </form>
+        </div>
+    <!--================Header Area =================-->
+
+    <!--================Breadcrumb Area =================-->
+    <section class="breadcrumb_area">
+      <div
+        class="overlay bg-parallax"
+        data-stellar-ratio="0.8"
+        data-stellar-vertical-offset="0"
+        data-background=""
+      ></div>
+      <div class="container">
+        <div class="page-cover text-center">
+          <h2 class="page-cover-tittle">Галерея</h2>
+          <ol class="breadcrumb">
+            <li><a href="index.html">Главная</a></li>
+            <li class="active">Галерея</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+    <!--================Breadcrumb Area =================-->
+
+    <!--================Breadcrumb Area =================-->
+    <section class="gallery_area section_gap">
+      <div class="container">
+        <div class="section_title text-center">
+          <h2 class="title_color header-text">Лучший отель</h2>
+          <p>Проведи незабываемо время</p>
+        </div>
+        <div class="row imageGallery1" id="gallery">
+          <div class="col-md-4 gallery_item">
+            <div class="gallery_img">
+              <img src="assets/img/img/reception/reception1.jpg" alt="" />
+              <div class="hover">
+                <a class="light" href="assets/img/img/reception/reception1.jpg"
+                  ><i class="fa fa-expand"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 gallery_item">
+            <div class="gallery_img">
+              <img src="assets/img/img/rm/rm2.jpg" alt="" />
+              <div class="hover">
+                <a class="light" href="assets/img/img/rm/rm2.jpg"
+                  ><i class="fa fa-expand"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 gallery_item">
+            <div class="gallery_img">
+              <img src="assets/img/img/wajah/depan.jpg" alt="" />
+              <div class="hover">
+                <a class="light" href="assets/img/img/wajah/depan.jpg"
+                  ><i class="fa fa-expand"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 gallery_item">
+            <div class="gallery_img">
+              <img src="assets/img/img/rm/rm4.jpg" alt="" />
+              <div class="hover">
+                <a class="light" href="assets/img/img/rm/rm4.jpg"
+                  ><i class="fa fa-expand"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 gallery_item">
+            <div class="gallery_img">
+              <img src="assets/img/banner/delux/deluxe.jpg" alt="" />
+              <div class="hover">
+                <a class="light" href="assets/img/banner/delux/deluxe.jpg"
+                  ><i class="fa fa-expand"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 gallery_item">
+            <div class="gallery_img">
+              <img src="assets/img/banner/delux/fasilitasdeluxe2.jpg" alt="" />
+              <div class="hover">
+                <a
+                  class="light"
+                  href="assets/img/banner/delux/fasilitasdeluxe2.jpg"
+                  ><i class="fa fa-expand"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 gallery_item">
+            <div class="gallery_img">
+              <img src="assets/img/banner/vip/fasilitasvip1.jpg" alt="" />
+              <div class="hover">
+                <a class="light" href="assets/img/banner/vip/fasilitasvip1.jpg"
+                  ><i class="fa fa-expand"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 gallery_item">
+            <div class="gallery_img">
+              <img
+                src="assets/img/banner/superior/fasilitassuperior3.jpg"
+                alt=""
+              />
+              <div class="hover">
+                <a
+                  class="light"
+                  href="assets/img/banner/superior/fasilitassuperior3.jpg"
+                  ><i class="fa fa-expand"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 gallery_item">
+            <div class="gallery_img">
+              <img src="assets/img/banner/superior/kamarsuperior.jpg" alt="" />
+              <div class="hover">
+                <a
+                  class="light"
+                  href="assets/img/banner/superior/kamarsuperior.jpg"
+                  ><i class="fa fa-expand"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================Breadcrumb Area =================-->
+
+    <!--================ start footer Area  =================-->
+    <footer>
+      <div class="footer-subscibe-area pt-120 pb-120">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="subscribe-text text-center">
+                <!-- <div class="footer-logo mb-45">
+                      <img src="assets/img/logo-2.png" alt="images" />
+                    </div> -->
+                <p>
+                  Развитая инфраструктура отеля со SPA, бассейнами, ресторанами,
+                  парком, детскими комнатой и анимацией оставят лучшие
+                  впечатления от вашего семейного отдыха.
+                </p>
+                <form action="#" class="subscribe-form mt-50">
+                  <input type="email" placeholder="Введите почту..." />
+                  <button type="submit">Подписаться</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright-area pt-20 pb-20">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-5 order-2 order-md-1">
+              <p class="copyright-text">Официальный сайт гостиницы</p>
+            </div>
+            <div class="col-md-7 order-1 order-md-2">
+              <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--================ End footer Area  =================-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.js"></script>
+    <script src="vendors/nice-select/js/jquery.nice-select.js"></script>
+    <script src="js/mail-script.js"></script>
+    <script src="js/stellar.js"></script>
+    <script src="vendors/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="vendors/isotope/isotope-min.js"></script>
+    <script src="js/stellar.js"></script>
+    <script src="vendors/lightbox/simpleLightbox.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <!--====== Bootstrap js ======-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <!--====== Slick js ======-->
+    <script src="assets/js/slick.min.js"></script>
+    <!--====== Isotope js ======-->
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <!--====== Magnific Popup js ======-->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!--====== inview js ======-->
+    <script src="assets/js/jquery.inview.min.js"></script>
+    <!--====== counterup js ======-->
+    <script src="assets/js/jquery.countTo.js"></script>
+    <!--====== Nice Select ======-->
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <!--====== Bootstrap datepicker ======-->
+    <script src="assets/js/bootstrap-datepicker.js"></script>
+    <!--====== Wow JS ======-->
+    <script src="assets/js/wow.min.js"></script>
+    <!--====== Google Map ======-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDC3Ip9iVC0nIxC6V14CKLQ1HZNF_65qEQ"></script>
+    <script src="assets/js/map.js"></script>
+    <!--====== Main js ======-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
