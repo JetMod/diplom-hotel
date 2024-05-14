@@ -8042,7 +8042,7 @@ footer .copyright-area.light-theme .footer-menu ul li::before {
 /*======= Booking form ========*/
 .booking-form-body {
   background-color: #fff;
-  padding: 50px 35px 30px;
+  /* padding: 50px 35px 30px; */
   position: relative;
 }
 .booking-form-body p strong {
@@ -12195,3 +12195,10 @@ h6 {
 }
 
 /* заканчиваеться  */
+
+
+.flex__alig {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}

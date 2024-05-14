@@ -335,7 +335,7 @@
                         <label>Промокод</label>
                         <input type="text" name="#" placeholder="Введите промокод">
                         <div class="input-group justify-content-end mt-3">
-                            <button class="main-btn btn-filled">ЗАБРОНИРОВАТЬ</button>
+                            <button class="main-btn btn-filled flex__alig" onclick="alert('Спасибо за вашу заявку. Мы рады сообщить, что ваша заявка принята. Наш менеджер свяжется с вами в ближайшее время для обсуждения деталей.'); return false;" >ЗАБРОНИРОВАТЬ</button>
                         </div>
                     </div>
                     <h4 class="mb-20">Цены</h4>
@@ -433,10 +433,15 @@
                             <textarea rows="5" placeholder="Если возникли вопросы, мы с радостью на них ответим :)"></textarea>
                         </div>
                     </form>
+                    <div class="input-group justify-content-end mt-3">
+                      <button class="main-btn btn-filled" onclick="alert('Спасибо за вашу заявку. Мы рады сообщить, что ваша заявка принята. Наш менеджер свяжется с вами в ближайшее время для обсуждения деталей.'); return false;">ЗАБРОНИРОВАТЬ</button>
+                  </div>
                 </div>
             </div>
         </div>
+        
     </section>
+    
     <!--====== Back to Top ======-->
     <a href="#" class="back-to-top" id="backToTop">
         <i class="fal fa-angle-double-up"></i>
@@ -483,6 +488,7 @@
           </div>
         </div>
       </footer>
+    
     <!--====== FOOTER PART END ======-->
     <!--====== jquery js ======-->
     <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
@@ -506,6 +512,7 @@
     <script src="assets/js/bootstrap-datepicker.js"></script>
     <!--====== Wow JS ======-->
     <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/contact.js"></script>
     <!--====== Google Map ======-->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDC3Ip9iVC0nIxC6V14CKLQ1HZNF_65qEQ"></script>
     <script src="assets/js/map.js"></script>
