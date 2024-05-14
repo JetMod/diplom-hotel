@@ -1,6 +1,6 @@
 # Дипломный проект
 
-ДЕМО - https://jetmod.github.io/mesto
+ДЕМО - https://jetmod.github.io/diplom-hotel/
 
 ## Описание проекта
 
